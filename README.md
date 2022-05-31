@@ -3,13 +3,16 @@
 #Exploratory Testing Charters
 
 
-     **Testers: SAKET ANAND**
-     **Date: 25/05/2022**
-     **Timebox or Duration: 5 Minutes**.
-     **Target or Scope: Home Page UI and Navigations without clicking any UI element.**
-     **Priority: High**
+**Testers: SAKET ANAND**
+**Date: 25/05/2022**
+**Timebox or Duration: 5 Minutes**.
+**Target or Scope: Home Page UI and Navigations without clicking any UI element.**
+**Priority: High**
+
+
 			
-    Test Steps:
+     **Test Steps:**
+	 
 	    -Installing and Launching the app
 	    -Skipping the "Claim my offer" page by clicking the cross icon on the top right corner. 
 	    -Sliding from the center of the screen without touching the right and left screen borders slides the chart page to the next date.
@@ -21,14 +24,19 @@
 	    -Sliding upwards from the "Balance" section slides the page up showing the balance records which initially shows a message 
          "There are no records for this period yet"
         -Sliding down touching the "Balance" display section slides the sections down and is navigated back to the home page containing charts. 
+
+
  
-     **Testers: SAKET ANAND**
-     **Date: 25/05/2022**
-     **Timebox or Duration: 5 Minutes.**
-     **Target or Scope: Exploring by Clicking on UI elements icons of the Home Page.**
-     **Priority: High**
+**Testers: SAKET ANAND**
+**Date: 25/05/2022**
+**Timebox or Duration: 5 Minutes.**
+**Target or Scope: Exploring by Clicking on UI elements icons of the Home Page.**
+**Priority: High**
+
+
 			
-	Test Steps:
+	 **Test Steps:**
+	 
         -Clicking on the filter icon on the top left corner navigates to filter options which are Day, Week, Month, Year, All, Interval, Choose date etc.
         -Observation: Camel case could have been followed. 
         -Clicking the Filter icon again to close time filters.
@@ -48,13 +56,17 @@
         d. and then navigates to the New Account Creation page if the account is not created.
  
 
-     **Testers: SAKET ANAND**
-     **Date: 25/05/2022**
-     **Timebox or Duration: 5 Minutes.**
-     **Target or Scope: Exploring Categories from the 3-dots icon menu option on the top right corner.**
-     **Priority: Medium**
 
-    Test Steps
+**Testers: SAKET ANAND**
+**Date: 25/05/2022**
+**Timebox or Duration: 5 Minutes.**
+**Target or Scope: Exploring Categories from the 3-dots icon menu option on the top right corner.**
+**Priority: Medium**
+
+
+
+     **Test Steps:**
+	 
         -Clicking on the top right 3-dots icon on the home page opens up the menu options (Categories, Accounts, Currencies, Settings)
         -Clicking on the "Categories" shows animation on the Category palate and sliding below the Categories opens EXPENSE & INCOME section with the list of items in EXPENSE and INCOME respectively.
         -Clicking on the '+' icon on EXPENSE/INCOME probabily adds a user defined personalized EXPENSE item but currently it is available only for subscribed app users so clicking on the cross icon navigates back to "Categories" Section.
@@ -108,14 +120,15 @@
         -Selecting merge option for a Category(eg.Clothes) populates Category list on the page as an overlay screen and selecting one of the option (eg. Food) currently gives an error message that back-up file is created with the .bkp extension and navigated back directly to the home page where the Clothes item disappears. *
 
  
-     **Testers: SAKET ANAND**
-     **Date: 25/05/2022**
-     **Timebox or Duration: 5 Minutes.**
-     **Target or Scope: Exploring Accounts from the 3-dots icon menu option on the top right corner.**
-     **Priority: High**
+**Testers: SAKET ANAND**
+**Date: 25/05/2022**
+**Timebox or Duration: 5 Minutes.**
+**Target or Scope: Exploring Accounts from the 3-dots icon menu option on the top right corner.**
+**Priority: High**
+	 
 	
-     Test Steps:
-
+     **Test Steps:**
+	 
         -Clicking on the top right corner on the 3-dots opens the menu with options Category, Accounts, Currencies and Settings. 
         -Clicking on the "Accounts" expands the page below and displays Add text, Bidirectional arrow icon and '+' icon. 
         -Clicking on + icon navigates to "New account" page which contains 
@@ -140,15 +153,19 @@
         -Clicking this existing account navigates to the Edit Account Page where an additional Bin button is visible.
         -Clicking this bin button gives a confirmation message before deleting the account "Are you sure? All associated records will be removed. You can merge or disable it instead" Here when user selects Yes, then account deletion happens instantly navigating the user back to the home page with 0 balance with a message "Account was deleted" and also contains an UNDO button. This message stays for 10 seconds and if the user clicks on the UNDO then account deletion operation is undone instantly and Balance amount appears on the home page.
         -Balance amount shows 2 decimal places on the home page.
+		
 
 
-     **Testers: SAKET ANAND**
-     **Date: 25/05/2022**
-     **Timebox or Duration: 5 Minutes.**
-     **Target or Scope: Exploring Multiple accounts an Merge Functionalities.** 
-     **Priority: High**
+**Testers: SAKET ANAND**
+**Date: 25/05/2022**
+**Timebox or Duration: 5 Minutes.**
+**Target or Scope: Exploring Multiple accounts an Merge Functionalities.** 
+**Priority: High**
+	 
+	 
 
-Test Steps
+     **Test Steps**
+	 
         -Multiple accounts can be created with an Add account and all the created accounts appear on the Accounts Page. 
         -clicking one of the many created accounts opens its Edit account section where all the fields are editable. 
         -Clicking on the bidirectional arrow button Opens up the New transfer page with Current day and date specified. 
@@ -171,6 +188,7 @@ Test Steps
 		-BUG: Account A with initial balance 100 and B with initial balance 100. We are able to do an account transfer 500 from A to B despite having a balance of 100. Also the updated balance in A becomes 400 and B becomes 600.  If this is intended then for sure this is ambiguous to the user. 
 
 
+
 **Testers: SAKET ANAND**
 **Date: 25/05/2022**
 **Timebox or Duration: 5 Minutes.**
@@ -178,13 +196,16 @@ Test Steps
 **Priority: Medium**
 
 
-     -Reaching settings: Click on the 3-dot menu button from the home page and then select settings. 
-     -Clicking on settings expands the settings below listing the options available in settings. 
-     -Budget Mode in the settings is not intuitive. If we give an amount as 100 and enable budget mode then on the home screen we see balance as INR 3.33 and when disabled then the home page shows INR 0.00.
-     -Clearing data from setting and relaunching the app still persist the data of the budget mode.
-     -Enabling Carry over in settings navigates back to the home page showing an additional row of INR balance in green along with Income and expense balance.
-     -Dark theme is disabled from non-annual subscriptions.
-     -Selecting Language opens a list of language options in the list, and when an option is selected then "You should restart the application in order to apply the changes" and this message is displayed in the language option selected and also the Settings options language changes instantly without restarting the app. 
+
+     **Test Steps**
+	
+        -Reaching settings: Click on the 3-dot menu button from the home page and then select settings. 
+        -Clicking on settings expands the settings below listing the options available in settings. 
+        -Budget Mode in the settings is not intuitive. If we give an amount as 100 and enable budget mode then on the home screen we see balance as INR 3.33 and when disabled then the home page shows INR 0.00.
+        -Clearing data from setting and relaunching the app still persist the data of the budget mode.
+        -Enabling Carry over in settings navigates back to the home page showing an additional row of INR balance in green along with Income and expense balance.
+        -Dark theme is disabled from non-annual subscriptions.
+        -Selecting Language opens a list of language options in the list, and when an option is selected then "You should restart the application in order to apply the changes" and this message is displayed in the language option selected and also the Settings options language changes instantly without restarting the app. 
 
     
 # Bugs/Observations:
@@ -238,7 +259,7 @@ Test Steps
 # Which area of the app or testing should be explored first and why?
 
 
-As we know that we are dealing with an app first, the below areas of the app should be tested first.
+     **As we know that we are dealing with an app first, the below areas of the app should be tested first.**
 
         a.Since it is an app we can start testing with the basic navigations from the page covered in chapter 1 where the user is just playing around with the app to see that features are present.
         b.Any clickable button or icons or links should be tested and made sure that there is no lag and that it is working as per functionality. 
