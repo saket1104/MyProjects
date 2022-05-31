@@ -9,18 +9,18 @@
 **Target or Scope: Home Page UI and Navigations without clicking any UI element.**
 **Priority: High**
 			
-**Test Steps:**
-     -Installing and Launching the app
-	 -Skipping the "Claim my offer" page by clicking the cross icon on the top right corner. 
-	 -Sliding from the center of the screen without touching the right and left screen borders slides the chart page to the next date.
-	 -Issue here is that If Current date is 25th may and user slides to the left side from center then the max date he reaches is 28th May which should have ideally shown at least till the last date of the current month.
-	 -Sliding towards right touching the left border opens Time filter (Day, Week, Month, Year, All, Interval Choose Date)
-	 -Sliding leftwards closes the Filter options.
-	 -Sliding towards the left touching the right border opens the Menu filter (Categories Accounts, Currencies and Settings options )
-	 -Sliding rightwards closes the menu options.
-	 -Sliding upwards from the "Balance" section slides the page up showing the balance records which initially shows a message 
-      "There are no records for this period yet"
-     -Sliding down touching the "Balance" display section slides the sections down and is navigated back to the home page containing charts. 
+    Test Steps:
+	    -Installing and Launching the app
+	    -Skipping the "Claim my offer" page by clicking the cross icon on the top right corner. 
+	    -Sliding from the center of the screen without touching the right and left screen borders slides the chart page to the next date.
+	    -Issue here is that If Current date is 25th may and user slides to the left side from center then the max date he reaches is 28th May which should have ideally shown at least till the last date of the current month.
+	    -Sliding towards right touching the left border opens Time filter (Day, Week, Month, Year, All, Interval Choose Date)
+	    -Sliding leftwards closes the Filter options.
+	    -Sliding towards the left touching the right border opens the Menu filter (Categories Accounts, Currencies and Settings options )
+	    -Sliding rightwards closes the menu options.
+	    -Sliding upwards from the "Balance" section slides the page up showing the balance records which initially shows a message 
+         "There are no records for this period yet"
+        -Sliding down touching the "Balance" display section slides the sections down and is navigated back to the home page containing charts. 
  
 **Testers: SAKET ANAND**
 **Date: 25/05/2022**
