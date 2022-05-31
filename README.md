@@ -1,6 +1,7 @@
-# Readmefile for moneyfy
+# Monefy Exploratory Teseting
 
-#Exploratory Testing Charters
+
+# Exploratory Testing Charters
 
 
 **Testers: SAKET ANAND**
@@ -208,7 +209,7 @@
         -Selecting Language opens a list of language options in the list, and when an option is selected then "You should restart the application in order to apply the changes" and this message is displayed in the language option selected and also the Settings options language changes instantly without restarting the app. 
 
     
-# Bugs/Observations:
+# Bugs/Observations/Findings:
 
      **Below are the list of observations found during testing**
 
